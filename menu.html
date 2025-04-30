@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish Inn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="C:\Users\HP\Desktop\menu\logo.jpg">
+</head>
+<body>
+    
+    <div class="name" id="one">
+        <h1>Delish Inn</h1>
+        <button onclick="home(event)" id="home1"><h4>Home</h4></button>
+        <button onclick="order1(event)" id="order"><h4>My Orders</h4></button>
+        <p id="el">Email:delishinn@gmail.com &nbsp; Phn:0461222529<p>
+      
+    </div>
+    <div id="i">
+    <div class="menu">
+        <h1>Menu</h1>
+        <p>Select your own Choice</p>
+    </div>
+    <div class="mc">
+        <center>
+        <table>
+           <tr> 
+            <td>
+                <img id="mn"  src="C:\Users\HP\Desktop\menu\main course.jpg">
+        <h2>Main Course</h2>
+        </td>
+        <td>
+          <img id="app" src="C:\Users\HP\Desktop\menu\appetizers.jpg">
+            <h2>Appetiziers</h2>
+        </td>
+        <td>
+        <img  id="bv"  src="C:\Users\HP\Desktop\menu\beverages.jpg">
+            <h2>Beverages</h2>
+        </td>
+       </tr>
+       </table>
+       </center>
+    </div>
+    </div>
+
+
+    
+    <div id="o1">
+        <h1 id="mos">My Orders</h1>
+        <p id="pos">Missed something!</p>
+        <center>
+        <table id="tab">
+            <tr>
+                <td>Food items</td>
+                <td>price</td>
+                <td >Quantity</td>
+                <td>Cost</td>
+                <td><div id="r1">Remove<div></td>
+            </tr>
+            <tr>
+                <td>Water bottle</td>
+                <td>20</td>
+                <td ><input onchange="mulw(event)"type="number" id="quan"></td>
+                <td id="cost"></td>
+                <td><button id="r" onclick="rem(event)">Remove</button></td>
+            </tr>
+        </table>
+     </center>
+        <button onclick="clo(event)" id="close">Close</button>
+       <button onclick="print()" id="prin">Print</button>
+        <button onclick="buy(event)" id="buyy">Buy</button>
+     <center>
+        <div id="dbill">
+          <h2 id="h">Total amount:</h2>
+         </div> 
+   </div>
+      
+</center>  
+
+
+
+ 
+<div id="m1">
+    <div class="menu" >
+       
+        <h1>Main course</h1>
+        <p>Select your own Choice</p>
+    </div>
+    <div class="mc">
+        
+        <center>
+            <table>
+                <tr>
+                    <td id="t1" onclick="addcb(event)">
+                        <img id="cb" src="C:\Users\HP\Desktop\menu\cheesy burgar.jpg">
+                        <h2 id="cbh">Cheesy Burgar</h2>
+                        <h3 id="rs">Rs.90</h3>
+                    </td>
+                    <td id="t2" onclick="addcs(event)">
+                        <img id="cs"src="C:\Users\HP\Desktop\menu\cheesy sandwich.jpg">
+                        <h2 id="csh">Cheesy Sandwich</h2>
+                        <h3 id="rs">Rs.80</h3>
+                    </td>
+                    <td  id="t3" onclick="addhd(event)">
+                        <img id="hd" src="C:\Users\HP\Desktop\menu\hotdog.jpg">
+                        <h2 id="hdh">HotDog</h2>
+                        <h3 id="rs">Rs.100</h3>
+                    </td>
+                    <td id="t4" onclick="addsc(event)">
+                        <img id="sc" src="C:\Users\HP\Desktop\menu\spicy chicken.jpg">
+                        <h2 id="sch">Spicy Chicken</h2>
+                        <h3 id="rs">Rs.120</h3>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</div>
+    
+
+    <div id="m2">
+        <div class="menu">
+            <h1>Appetizers</h1>
+            <p>Select your own Choice</p>
+        </div>
+        <div class="mc">
+            <center>
+                <table>
+                    <tr>
+                        <td id="t5" onclick="addct(event)">
+                            <img id="ct" src="C:\Users\HP\Desktop\menu\cocktail.jpg">
+                            <h2 id="cth">Cocktail</h2>
+                            <h3 id="rs">Rs.150</h3>
+                        </td>
+                        <td id="t6" onclick="addng(event)">
+                            <img id="ng" src="C:\Users\HP\Desktop\menu\nuggets.jpg">
+                            <h2 id="ngh">Nuggets</h2>
+                            <h3 id="rs">Rs.70</h3>
+                        </td>
+                        <td id="t7" onclick="addff(event)">
+                            <img id="ff" src="C:\Users\HP\Desktop\menu\frenchfries.jpg">
+                            <h2 id="ffh">French Fries</h2>
+                            <h3 id="rs">Rs.60</h3>
+                        </td>
+                        <td id="t8" onclick="addsal(event)">
+                            <img id="sal" src="C:\Users\HP\Desktop\menu\salad.jpg">
+                            <h2 id="salh">Salad</h2>
+                            <h3 id="rs">Rs.130</h3>
+                        </td>
+                   </tr>
+                </table>     
+            </center>
+        </div>
+    </div>
+
+    <div id="m3">
+        <div class="menu">
+            <h1>Beverages</h1>
+            <p>Select your own Choice</p>
+        </div>
+        <div class="mc">
+            <center>
+                <table>
+                    <tr>
+                        <td id="t9" onclick="addic(event)">
+                            <img id="ic" src="C:\Users\HP\Desktop\menu\iced coffee.jpg">
+                            <h2 id="ich">Iced Coffee</h2>
+                            <h3 id="rs">Rs.80</h3>
+                        </td>
+                        <td id="t10" onclick="addit(event)">
+                            <img id="it" src="C:\Users\HP\Desktop\menu\iced tea.jpg">
+                            <h2 id="ith">Iced Tea</h2>
+                            <h3 id="rs">Rs.80</h3>
+                        </td>
+                        <td id="t11" onclick="addms(event)">
+                            <img id="ms" src="C:\Users\HP\Desktop\menu\milkshake.jpg">
+                            <h2 id="msh">MilkShake</h2>
+                            <h3 id="rs">Rs.100</h3>
+                        </td>
+                        <td id="t12" onclick="addo(event)">
+                            <img id="or" src="C:\Users\HP\Desktop\menu\orange.jpg">
+                            <h2 id="oh">Orange Juice</h2>
+                            <h3 id="rs">Rs.60</h3>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </div>
+    <script src="C:\Users\HP\Desktop\menu\js.js"></script>
+</body>
+</html>

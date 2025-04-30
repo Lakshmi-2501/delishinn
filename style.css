@@ -1,0 +1,203 @@
+.name
+{
+top:0;
+left:0;
+  background-color:rgb(59, 1, 1) ;  
+  color: rgb(255, 255, 117);
+  text-align: right;
+}
+.name p
+{
+text-align: right;
+padding: 5px;
+font-size: 20px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.name h1
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top:15px;
+    font-size: 50px;
+}
+
+.menu h1{
+    text-align: center;
+    padding:5px;
+
+}
+.menu p{
+    text-align: center;
+    padding:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.mc{
+    padding: 25px;
+    
+}
+
+.mc img{
+    height:200px;
+    width:200px;
+    padding:15px;
+    transition: 5ms;
+    
+}
+.mc table{
+    border:solid black 4px;
+    padding: 10px;
+   margin-bottom: 10px;
+    
+}
+.mc h2,h3{
+    text-align: center;
+  
+}
+.order table
+{
+    border-collapse:collapse;
+}
+.order td{
+    border:solid black 2px;
+    margin:0px;
+    padding:4px;
+    
+}
+#i{
+    display:block;
+    
+}
+#m1,#m2,#m3
+{
+    display:none;
+}
+#home1{
+background-color: rgb(255, 255, 117);
+border: none;
+
+padding :10px;
+margin: 5px;
+color:rgb(59, 1, 1);
+border-radius: 10px;
+position: fixed;
+left: 0.75%;
+top:55px;
+}
+#o1
+{
+   text-align:center;
+   position: fixed;
+   top:15.6%;
+   background-color:lightgrey;
+   color: black;
+   padding: 15px;
+   height:100%;
+   width: 100%;
+display: none;
+}
+#o1 h1
+{
+    padding: 10px;
+
+}
+#o1 table{
+
+    border-collapse: collapse;
+    border:solid black 2px;
+}
+#o1 td
+{
+border: solid black 2px;
+padding:5px;
+font-size: 20px;
+}
+#close
+{
+    background-color: black;
+border: none;
+padding :10px;
+margin: 5px;
+color:red;
+border-radius: 10px;
+position:fixed;
+bottom:5%;
+right:650px;
+}
+#order
+{
+    font-weight: 200;
+    background-color: rgb(255, 255, 117);
+border: none;
+padding :10px;
+margin: 5px;
+color:rgb(59, 1, 1);
+border-radius: 10px;
+position: fixed;
+left: 5.6%;
+top:55px;
+}
+
+#quan,#qcb,#qcs,#qhd,#qsc,#qct,#qng,#qff,#qsal,#qic,#qit,#qms,#qo
+{
+    width: 70px;
+}
+
+
+#r
+{
+    background-color: black;
+    border: none;
+    padding :10px;
+    margin: 5px;
+    color:red;
+    border-radius: 10px;
+}
+
+#buyy
+{
+    background-color: black;
+border: none;
+padding :10px;
+margin: 5px;
+color:lightgreen;
+border-radius: 10px;
+position:fixed;
+bottom:5%;
+right:600px;
+}
+
+#h{
+    padding:30px;
+}
+
+body{
+    background-color: rgb(255, 255, 117);
+}
+#mos
+{
+    padding: 0px;
+}
+#pos
+{
+    padding-bottom: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+
+#prin
+{
+    background-color: black;
+    display: none;
+border: none;
+padding :10px;
+margin: 5px;
+color:lightgreen;
+border-radius: 10px;
+position:fixed;
+bottom:5%;
+right:600px;
+}
